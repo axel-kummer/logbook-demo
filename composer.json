@@ -1,0 +1,27 @@
+{
+    "name": "axel-kummer/logbook-demo",
+    "description": "Logbook demo project",
+    "type": "project",
+    "require": {
+        "typo3/cms": "8.7.*",
+        "axel-kummer/aku-logbook": "dev-master",
+        "helhum/typo3-console": "^4.9"
+    },
+    "authors": [
+        {
+            "name": "Axel Kummer",
+            "email": "kummeraxel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "typo3/cms": {
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": "docroot"
+        },
+        "helhum/typo3-console": {
+            "install-extension-dummy": "0"
+        }
+    },
+    "prefer-stable" : true
+}
