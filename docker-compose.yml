@@ -1,0 +1,13 @@
+version: "3.0"
+services:
+  php:
+    image: php:7.1
+    volumes:
+      - .:/srv/www
+      - ./docroot:/srv/www/html
+    ports:
+      - 80:80
+  db:
+    image: mariadb:10.1
+    volumes:
+      - ./db:/var/lib/mysql
