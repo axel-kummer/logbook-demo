@@ -5,3 +5,8 @@
 /docroot
 /typo3_src
 .idea
+/html
+/docroot/typo3conf/ENABLE_INSTALL_TOOL
+!/docroot/typo3conf/AdditionalConfiguration.php
+!/docroot/typo3conf/LocalConfiguration.php
+!/docroot/typo3conf/PackageStates.php
