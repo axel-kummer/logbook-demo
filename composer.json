@@ -5,7 +5,8 @@
     "require": {
         "typo3/cms": "8.7.*",
         "axel-kummer/aku-logbook": "dev-master",
-        "helhum/typo3-console": "^4.9"
+        "helhum/typo3-console": "^4.9",
+        "typo3/cms-introduction": "^3.0"
     },
     "authors": [
         {

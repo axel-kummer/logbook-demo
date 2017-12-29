@@ -1,13 +1,32 @@
 version: "3.0"
 services:
   php:
-    image: php:7.1
+    build:
+      context: ./build/php
     volumes:
-      - .:/srv/www
-      - ./docroot:/srv/www/html
+      - ./docroot:/var/www/html
+      - .:/var/www
     ports:
       - 80:80
+    links:
+      - db:db
+    environment:
+      - TYPO3_CONTEXT=Development
   db:
     image: mariadb:10.1
     volumes:
-      - ./db:/var/lib/mysql
+      - db:/var/lib/mysql
+      - ./database-dump.sql:/var/data/database-dump.sql
+    environment:
+      - MYSQL_ROOT_PASSWORD
+      - MYSQL_DATABASE
+      - MYSQL_USER
+      - MYSQL_PASSWORD
+  logbook:
+    image: alexandergunkel/logbook:0.0.6
+    environment:
+      - PORT=8080
+    ports:
+      - 8080:8080
+volumes:
+  db:
