@@ -10,6 +10,7 @@ services:
       - 80:80
     links:
       - db:db
+      - logbook:logbook
     environment:
       - TYPO3_CONTEXT=Development
   db:
@@ -23,7 +24,7 @@ services:
       - MYSQL_USER
       - MYSQL_PASSWORD
   logbook:
-    image: alexandergunkel/logbook:0.0.6
+    image: alexandergunkel/logbook
     environment:
       - PORT=8080
     ports:

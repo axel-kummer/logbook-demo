@@ -12,18 +12,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/axel-kummer/t3x-aku_logbook.git",
-                "reference": "3ee7e15a88ed1fc799f229e6cb782ea6c5356f89"
+                "reference": "eb463f67d058003f1ebf2c8b78e5c6969e87ab4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/axel-kummer/t3x-aku_logbook/zipball/3ee7e15a88ed1fc799f229e6cb782ea6c5356f89",
-                "reference": "3ee7e15a88ed1fc799f229e6cb782ea6c5356f89",
+                "url": "https://api.github.com/repos/axel-kummer/t3x-aku_logbook/zipball/eb463f67d058003f1ebf2c8b78e5c6969e87ab4a",
+                "reference": "eb463f67d058003f1ebf2c8b78e5c6969e87ab4a",
                 "shasum": ""
             },
             "require": {
                 "axel-kummer/logbook-php": "dev-master",
                 "php": ">=5.6",
-                "typo3/cms": ">=7.6.0"
+                "typo3/cms": ">=6.2.30"
             },
             "replace": {
                 "aku_logbook": "self.version",
@@ -54,7 +54,7 @@
                 }
             ],
             "description": "TYPO3 Extension to send logs to the logbook server",
-            "time": "2017-12-27T15:02:45+00:00"
+            "time": "2017-12-29T09:34:18+00:00"
         },
         {
             "name": "axel-kummer/logbook-php",
