@@ -1,0 +1,10 @@
+version: "3.0"
+services:
+  php:
+    environment:
+      - VIRTUAL_HOST=logbook.local
+    networks:
+      - proxy
+networks:
+  proxy:
+    external: true

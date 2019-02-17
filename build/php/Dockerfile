@@ -6,7 +6,7 @@ RUN apt-get install -y \
             libjpeg62-turbo-dev \
             libjpeg-dev \
             libmcrypt-dev \
-            libpng12-dev \
+            libpng-dev \
             libxml2-dev \
             libmagickwand-dev \
             zlib1g-dev \

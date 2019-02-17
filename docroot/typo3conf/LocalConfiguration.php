@@ -3,7 +3,7 @@ return [
     'BE' => [
         'debug' => true,
         'explicitADmode' => 'explicitAllow',
-        'installToolPassword' => '$pbkdf2-sha256$25000$uFz84BY7rlp/XsJ4uMVmxA$ZOCP9crnqkAUZ1bNqfT38FyS1O/rPrYV/L2b89M208Q',
+        'installToolPassword' => '$pbkdf2-sha256$25000$EZ97z1LEnlHCSnSfqdRqVQ$g6/bOA1ot1j1Alhy5uxdZLogaYngySnxJ9z7heqJ7ss',
         'loginSecurityLevel' => 'rsa',
     ],
     'DB' => [
@@ -21,7 +21,7 @@ return [
     ],
     'EXT' => [
         'extConf' => [
-            'aku_logbook' => 'a:6:{s:8:"hostName";s:7:"logbook";s:4:"port";s:4:"8080";s:15:"applicationName";s:18:"TYPO3 Installation";s:11:"requestType";s:4:"http";s:12:"requestClass";s:0:"";s:13:"ignorePattern";s:13:"(.*realurl.*)";}',
+            'aku_logbook' => 'a:6:{s:8:"hostName";s:7:"logbook";s:4:"port";s:4:"8088";s:15:"applicationName";s:18:"TYPO3 Installation";s:11:"requestType";s:4:"http";s:12:"requestClass";s:0:"";s:13:"ignorePattern";s:13:"(.*realurl.*)";}',
             'bootstrap_package' => 'a:7:{s:16:"disablePageTsRTE";s:1:"0";s:27:"disablePageTsBackendLayouts";s:1:"0";s:20:"disablePageTsTCEMAIN";s:1:"0";s:20:"disablePageTsTCEFORM";s:1:"0";s:30:"disablePageTsTtContentPreviews";s:1:"0";s:36:"disablePageTsNewContentElementWizard";s:1:"0";s:21:"disableLessProcessing";s:1:"0";}',
             'introduction' => 'a:0:{}',
             'realurl' => 'a:6:{s:10:"configFile";s:26:"typo3conf/realurl_conf.php";s:14:"enableAutoConf";s:1:"1";s:14:"autoConfFormat";s:1:"0";s:17:"segTitleFieldList";s:0:"";s:12:"enableDevLog";s:1:"0";s:10:"moduleIcon";s:1:"0";}',

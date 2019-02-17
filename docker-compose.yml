@@ -6,13 +6,12 @@ services:
     volumes:
       - ./docroot:/var/www/html
       - .:/var/www
-    ports:
-      - 80:80
     links:
       - db:db
-      - logbook:logbook
     environment:
       - TYPO3_CONTEXT=Development
+    networks:
+      - default
   db:
     image: mariadb:10.1
     volumes:
@@ -23,11 +22,17 @@ services:
       - MYSQL_DATABASE
       - MYSQL_USER
       - MYSQL_PASSWORD
+    networks:
+      - default
   logbook:
     image: alexandergunkel/logbook
+    networks:
+      - default
     environment:
-      - PORT=8080
+      - PORT=8088
     ports:
-      - 8080:8080
+      - 8088:8088
 volumes:
   db:
+networks:
+  default:
