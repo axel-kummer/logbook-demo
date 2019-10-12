@@ -12,9 +12,4 @@ docker-compose pull
 docker-compose build
 docker-compose up -d
 
-sleep 30
-if [[ ${OS} == "Windows_NT" ]]; then
-    winpty docker-compose exec db sh -c 'exec mysql -uroot -p"$MYSQL_ROOT_PASSWORD" < /var/data/database-dump.sql'
-else
-    docker-compose exec db sh -c 'exec mysql -uroot -p"$MYSQL_ROOT_PASSWORD" < /var/data/database-dump.sql'
-fi
+./import-db.sh
