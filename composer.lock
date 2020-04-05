@@ -61,12 +61,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aseemann/logbook-simplefe.git",
-                "reference": "cd823b014aceaf628c02e9db674e8f54ddd32acb"
+                "reference": "64f49c8ee5a75b74d1c924372e50abeae7d8f472"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aseemann/logbook-simplefe/zipball/cd823b014aceaf628c02e9db674e8f54ddd32acb",
-                "reference": "cd823b014aceaf628c02e9db674e8f54ddd32acb",
+                "url": "https://api.github.com/repos/aseemann/logbook-simplefe/zipball/64f49c8ee5a75b74d1c924372e50abeae7d8f472",
+                "reference": "64f49c8ee5a75b74d1c924372e50abeae7d8f472",
                 "shasum": ""
             },
             "type": "project",
@@ -81,7 +81,7 @@
                 }
             ],
             "description": "Simple frontend for logbook",
-            "time": "2020-04-04T06:29:42+00:00"
+            "time": "2020-04-05T09:59:20+00:00"
         },
         {
             "name": "axel-kummer/aku-logbook",
