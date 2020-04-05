@@ -24,14 +24,14 @@ services:
       - MYSQL_PASSWORD
     networks:
       - default
-  logbook:
-    image: alexandergunkel/logbook
-    networks:
-      - default
-    environment:
-      - PORT=8088
-    ports:
-      - 8088:8088
+#  logbook:
+#    image: alexandergunkel/logbook
+#    networks:
+#      - default
+#    environment:
+#      - PORT=8088
+#    ports:
+#      - 8088:8088
 volumes:
   db:
 networks:

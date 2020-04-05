@@ -11,6 +11,9 @@ return [
         'core' => [
             'packagePath' => 'typo3/sysext/core/',
         ],
+        'scheduler' => [
+            'packagePath' => 'typo3/sysext/scheduler/',
+        ],
         'extbase' => [
             'packagePath' => 'typo3/sysext/extbase/',
         ],
@@ -26,23 +29,8 @@ return [
         'fluid_styled_content' => [
             'packagePath' => 'typo3/sysext/fluid_styled_content/',
         ],
-        'info' => [
-            'packagePath' => 'typo3/sysext/info/',
-        ],
-        'info_pagetsconfig' => [
-            'packagePath' => 'typo3/sysext/info_pagetsconfig/',
-        ],
-        'extensionmanager' => [
-            'packagePath' => 'typo3/sysext/extensionmanager/',
-        ],
-        'lang' => [
-            'packagePath' => 'typo3/sysext/lang/',
-        ],
-        'setup' => [
-            'packagePath' => 'typo3/sysext/setup/',
-        ],
-        'rte_ckeditor' => [
-            'packagePath' => 'typo3/sysext/rte_ckeditor/',
+        'reports' => [
+            'packagePath' => 'typo3/sysext/reports/',
         ],
         'rsaauth' => [
             'packagePath' => 'typo3/sysext/rsaauth/',
@@ -65,20 +53,17 @@ return [
         'backend' => [
             'packagePath' => 'typo3/sysext/backend/',
         ],
-        'belog' => [
-            'packagePath' => 'typo3/sysext/belog/',
-        ],
         'beuser' => [
             'packagePath' => 'typo3/sysext/beuser/',
         ],
         'context_help' => [
             'packagePath' => 'typo3/sysext/context_help/',
         ],
-        'cshmanual' => [
-            'packagePath' => 'typo3/sysext/cshmanual/',
-        ],
         'documentation' => [
             'packagePath' => 'typo3/sysext/documentation/',
+        ],
+        'extensionmanager' => [
+            'packagePath' => 'typo3/sysext/extensionmanager/',
         ],
         'felogin' => [
             'packagePath' => 'typo3/sysext/felogin/',
@@ -92,29 +77,23 @@ return [
         'impexp' => [
             'packagePath' => 'typo3/sysext/impexp/',
         ],
+        'info' => [
+            'packagePath' => 'typo3/sysext/info/',
+        ],
         'lowlevel' => [
             'packagePath' => 'typo3/sysext/lowlevel/',
         ],
         'recordlist' => [
             'packagePath' => 'typo3/sysext/recordlist/',
         ],
-        'reports' => [
-            'packagePath' => 'typo3/sysext/reports/',
-        ],
-        'scheduler' => [
-            'packagePath' => 'typo3/sysext/scheduler/',
-        ],
-        'sv' => [
-            'packagePath' => 'typo3/sysext/sv/',
+        'rte_ckeditor' => [
+            'packagePath' => 'typo3/sysext/rte_ckeditor/',
         ],
         'sys_note' => [
             'packagePath' => 'typo3/sysext/sys_note/',
         ],
         't3editor' => [
             'packagePath' => 'typo3/sysext/t3editor/',
-        ],
-        'tstemplate' => [
-            'packagePath' => 'typo3/sysext/tstemplate/',
         ],
         'viewpage' => [
             'packagePath' => 'typo3/sysext/viewpage/',
@@ -127,6 +106,12 @@ return [
         ],
         'aku_logbook' => [
             'packagePath' => 'typo3conf/ext/aku_logbook/',
+        ],
+        'belog' => [
+            'packagePath' => 'typo3/sysext/belog/',
+        ],
+        'setup' => [
+            'packagePath' => 'typo3/sysext/setup/',
         ],
     ],
     'version' => 5,
